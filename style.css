@@ -18,6 +18,7 @@ p1 {
 }
 img {
     width: 30 em;
+    max-width: 40em;
 }
 a {
     color: #2e6b3d;
