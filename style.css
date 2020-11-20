@@ -2,7 +2,7 @@ body {
     background-color: #FFFFFF;
     margin: 0 auto;
     max-width: 50em;
-    font-family: fantasy, sans-serif, monospace;
+    font-family: sans-serif, monospace;
     line-height: 1.2;
     padding: 4em 1em;
 }
