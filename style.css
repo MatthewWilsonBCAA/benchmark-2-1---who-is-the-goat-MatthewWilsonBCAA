@@ -16,6 +16,9 @@ p1 {
     padding-top: 16em;
     color: #343434;
 }
+img {
+    width: 55 em;
+}
 a {
     color: #2e6b3d;
 }
