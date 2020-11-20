@@ -2,24 +2,20 @@ body {
     background-color: #FFFFFF;
     margin: 0 auto;
     max-width: 50em;
-    font-family: monospace;
-    line-height: 1.5;
+    font-family: fantasy;
+    line-height: 1.2;
     padding: 4em 1em;
 }
 h1 {
-    font-size: 3em;
-    color: #031b07;
+    font-size: 2em;
+    color: #123618;
 }
 p1 {
     margin-top: 16em;
     padding-top: 16em;
+    padding-top: 16em;
     color: #343434;
 }
-p2 {
-    margin-top: 16em;
-    padding-top: 16em;
-    color: #345F34;
-}
 a {
-    color: #80D3F1;
+    color: #2e6b3d;
 }
