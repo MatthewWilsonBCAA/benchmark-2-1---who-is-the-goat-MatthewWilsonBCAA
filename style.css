@@ -1,25 +1,68 @@
 body {
-    background-color: #FFFFFF;
-    margin: 0 auto;
-    max-width: 50em;
-    font-family: sans-serif, monospace;
-    line-height: 1.2;
-    padding: 4em 1em;
+  background-color: #ffffff;
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: sans-serif, monospace;
+  line-height: 1.2;
+  padding: 4em 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 h1 {
-    font-size: 2em;
-    color: #123618;
+  font-size: 2em;
+  color: #123618;
 }
 p1 {
-    margin-top: 16em;
-    padding-top: 16em;
-    padding-top: 16em;
-    color: #343434;
+  margin-top: 16em;
+  padding-top: 16em;
+  padding-top: 16em;
+  color: #343434;
 }
 img {
-    width: 30 em;
-    max-width: 40em;
+  max-width: 40%;
 }
 a {
-    color: #2e6b3d;
+  color: #2e6b3d;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex: 0 1 100vw;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    flex: 0 1 75vw;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    flex-wrap: nowrap;
+  }
+  img {
+    max-width: 60%;
+    margin-top: 5vh;
+  }
+  .container {
+    margin-top: 10vh;
+    flex: 0 1 50vw;
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body {
+    flex-wrap: nowrap;
+  }
+  img {
+    max-width: 80%;
+    margin-top: 5vh;
+  }
+  .container {
+    margin-top: 8vh;
+    flex: 0 1 75vw;
+    justify-content: space-around;
+  }
 }
