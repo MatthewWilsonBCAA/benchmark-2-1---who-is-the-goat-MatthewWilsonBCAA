@@ -49,7 +49,8 @@ a {
   .container {
     margin-top: 10vh;
     flex: 0 1 50vw;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 1vw;
   }
 }
 @media only screen and (min-width: 1200px) {
