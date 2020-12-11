@@ -20,7 +20,7 @@ p1 {
   color: #343434;
 }
 img {
-  max-width: 40%;
+  max-width: 60%;
 }
 a {
   color: #2e6b3d;
@@ -43,7 +43,7 @@ a {
     flex-wrap: nowrap;
   }
   img {
-    max-width: 60%;
+    max-width: 70%;
     margin-top: 5vh;
   }
   .container {
