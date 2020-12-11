@@ -34,6 +34,9 @@ a {
 }
 
 @media only screen and (min-width: 600px) {
+  body {
+    font-size: 1.5em;
+  }
   .container {
     flex: 0 1 75vw;
   }
@@ -41,6 +44,7 @@ a {
 @media only screen and (min-width: 900px) {
   body {
     flex-wrap: nowrap;
+    font-size: 1em;
   }
   img {
     max-width: 70%;
@@ -56,6 +60,7 @@ a {
 @media only screen and (min-width: 1200px) {
   body {
     flex-wrap: nowrap;
+    font-size: 1em;
   }
   img {
     max-width: 80%;
